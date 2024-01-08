@@ -1,7 +1,14 @@
-@import './theme/theme.scss';
+@import '~@csstools/normalize.css';
+@import 
+'./mixins/breakpoints',
+'./mixins/font-size',
+'./mixins/grid',
+'./variables/breakpoints',
+'./variables/font',
+'./variables/palette',
+'./theme/theme'
+;
 
-button.storybook-button.storybook-button--primary {
-  background-color: var(--brand-80);
+* {
+  box-sizing: border-box;
 }
-
-

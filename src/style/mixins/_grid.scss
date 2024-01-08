@@ -1,0 +1,6 @@
+@mixin grid($gap-row, $gap-column, $column-count, $column-size) {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: $gap-row $gap-column;
+  grid-template-columns: repeat($column-count, $column-size);
+}
