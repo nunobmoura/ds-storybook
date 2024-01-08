@@ -1,0 +1,10 @@
+@import '../palette.scss';
+@import './light.scss';
+@import './dark.scss';
+
+:root {
+  @include lightTheme;
+  @media (prefers-color-scheme: dark) {
+    @include darkTheme;
+  }
+}

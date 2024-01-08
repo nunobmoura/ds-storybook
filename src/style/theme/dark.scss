@@ -1,0 +1,57 @@
+@mixin darkTheme {
+  color-scheme: dark;
+  
+  // brand scale
+  --brand-10: #{$base--brand-90};
+  --brand-20: #{$base--brand-80};
+  --brand-30: #{$base--brand-70};
+  --brand-40: #{$base--brand-60};
+  --brand-50: #{$base--brand-50};
+  --brand-60: #{$base--brand-40};
+  --brand-70: #{$base--brand-30};
+  --brand-80: #{$base--brand-20};
+  --brand-90: #{$base--brand-10};
+
+  --brand-primary: #{$base--brand-primary};
+
+  // neutral scale
+  --neutral-0: #{$base--neutral-90};
+  --neutral-10: #{$base--neutral-80};
+  --neutral-20: #{$base--neutral-70};
+  --neutral-30: #{$base--neutral-60};
+  --neutral-40: #{$base--neutral-50};
+  --neutral-50: #{$base--neutral-40};
+  --neutral-60: #{$base--neutral-30};
+  --neutral-70: #{$base--neutral-20};
+  --neutral-80: #{$base--neutral-10};
+  --neutral-90: #{$base--neutral-0};
+
+  --background: #{$base--neutral-80};
+  --foreground: #{$base--neutral-0};
+
+  // tone scales
+  --tone-ipsilon: #{$base--tone-ipsilon};
+  --tone-p3: #{$base--tone-p3};
+  --tone-terroir: #{$base--tone-terroir};
+  --tone-impar: #{$base--tone-impar};
+  --tone-fugas: #{$base--tone-fugas};
+  --tone-paid: #{$base--tone-paid};
+  --tone-multimedia: #{$base--tone-multimedia};
+  --tone-azul--light: #{$base--tone-azul--light};
+  --tone-azul--dark: #{$base--tone-azul--dark};
+  --tone-psuperior: #{$base--tone-psuperior};
+  --tone-leituras: #{$base--tone-leituras};
+  --tone-cinecartaz: #{$base--tone-cinecartaz};
+  --tone-arteria: #{$base--tone-arteria};
+
+  // alert scale
+  --success-20: #{$base--success-80};
+  --success-50: #{$base--success-50};
+  --success-80: #{$base--success-20};
+  --warning-20: #{$base--warning-80};
+  --warning-50: #{$base--warning-50};
+  --warning-80: #{$base--warning-20};
+  --danger-20: #{$base--danger-80};
+  --danger-50: #{$base--danger-50};
+  --danger-80: #{$base--danger-20};
+}
