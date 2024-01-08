@@ -1,7 +1,8 @@
 {
-  "name": "before-storybook",
+  "name": "ds-storybook",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nunobmoura.github.io/ds-storybook",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -17,7 +18,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "deploy-storybook": "gh-pages -d storybook-static"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +51,7 @@
     "@storybook/react-webpack5": "^8.0.0-alpha.7",
     "@storybook/test": "^8.0.0-alpha.7",
     "css-loader": "^6.8.1",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.33",
     "prop-types": "^15.8.1",
     "sass": "^1.69.7",
